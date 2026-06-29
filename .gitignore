@@ -1,0 +1,27 @@
+# Корневые сборочные папки
+build/
+build-*/
+ios-build/
+
+# Сборочные папки на любой глубине
+**/build/
+**/build-*/
+**/ios-build/
+
+# Qt Creator
+*.pro.user
+*.qmlc
+.qmake.stash
+CMakeLists.txt.user
+
+# macOS
+.DS_Store
+
+# Android
+*.apk
+*.aab
+local.properties
+
+# IDE
+.idea/
+.vscode/
